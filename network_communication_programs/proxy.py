@@ -103,7 +103,7 @@ def server_loop(local_host, local_port, remote_host, remote_port, receive_first)
         print("[!!] Check for other listening sockets or correct permissions.")
         sys.exit(0)
 
-    print("[*] Listeningon%s %d" % (local_host, local_port))
+    print("[*] Listening on %s %d" % (local_host, local_port))
     server.listen(5)
     while True:
         client_socket, addr = server.accept()
@@ -149,5 +149,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-
