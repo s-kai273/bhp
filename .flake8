@@ -1,0 +1,3 @@
+[flake8]
+per-file-ignores =
+    web_server_atack/wp_killer.py: F541, E722
