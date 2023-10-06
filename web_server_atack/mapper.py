@@ -7,7 +7,7 @@ import threading
 import time
 
 
-FILTERED = [".jpg", ".gif", ".ping", ".css"]
+FILTERED = [".jpg", ".gif", ".png", ".css"]
 TARGET = "http://127.0.0.1:31337/"
 THREADS = 10
 
